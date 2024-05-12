@@ -27,7 +27,7 @@ class App extends Component {
                 <Image src="/LogoB.png" size="medium"/>
                 <Header as="h1" size="huge">
                   <Header.Subheader>
-                    A rogue-like dungeon crawler
+                    Puzzle Action Adventure
                   </Header.Subheader>
                 </Header>
               </Segment>

@@ -75,34 +75,18 @@ class App extends Component {
                 </Header>
                 <p>
                   <Embed
-                      id='gWe-pbaj8rY'
+                      id='kL0X1jhH7mg'
                       placeholder='/Video.png'
                       source='youtube'
                   />
                 </p>
 
                 <Header as="h3" size="medium">
-                  Images
+                  Press Kit
                 </Header>
-                <Image.Group size='medium'>
-                  <Image src='/screenshots/2.png' />
-                  <Image src='/screenshots/9.png' />
-                  <Image src='/screenshots/4.png' />
-                  <Image src='/screenshots/1.png' />
-                  <Image src='/screenshots/3.png' />
-                  <Image src='/screenshots/5.png' />
-                  <Image src='/screenshots/6.png' />
-                  <Image src='/screenshots/7.png' />
-                  <Image src='/screenshots/8.png' />
-                  <Image src='/screenshots/10.png' />
-                </Image.Group>
-
-                <Header as="h3" size="medium">
-                  Icon
-                </Header>
-                <p>
-                  <Image src="/Icon512.png" size="small"/>
-                </p>
+                <a href="https://drive.google.com/drive/folders/1tZ_FWhXpIGfho5R3aTphIKKALqkwCvk4">
+                  Includes screenshots, videos, logos, and other assets.
+                 </a>
 
                 <Header as="h3" size="medium">
                   Contact

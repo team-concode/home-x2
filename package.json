@@ -21,10 +21,9 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "yarn run build",
-    "deploy": "yarn run build && echo 'graytail.concode.co' > ./build/CNAME && gh-pages -d build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "CI=false NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "deploy": "npm run build && echo \"graytail.concode.co\" > ./build/CNAME && gh-pages -d build -r ssh://git@github.com/team-concode/home-x2.git",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

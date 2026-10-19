@@ -84,7 +84,7 @@ class App extends Component {
                 <Header as="h3" size="medium">
                   Press Kit
                 </Header>
-                <a href="https://drive.google.com/drive/folders/1tZ_FWhXpIGfho5R3aTphIKKALqkwCvk4">
+                <a href="https://drive.google.com/drive/folders/1ExhukwLhIIMVgcEHA8YXmkt9OQnl71AR?usp=drive_link">
                   Includes screenshots, videos, logos, and other assets.
                  </a>
 
